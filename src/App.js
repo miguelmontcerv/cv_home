@@ -53,4 +53,4 @@ function App() {
   );
 }
 
-export default Home;
+export default App;
