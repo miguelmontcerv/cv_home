@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Home {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #e3f2e1; /* Color de fondo para la página */
 }
 
-.App-link {
-  color: #61dafb;
+.hero-section {
+  background-color: #5b8c5a; /* Verde oscuro */
+  color: #fff; /* Blanco */
+  padding: 100px 0;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+}
+
+.about-section {
+  background-color: #f5e3d0; /* Beige */
+  padding: 100px 0;
+  text-align: center;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-content h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 18px;
+}
+
+.team-section {
+  background-color: #C9E265; /* Verde claro */
+  padding: 100px 0;
+  text-align: center;
+}
+
+.team-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.team-content h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.team-content p {
+  font-size: 18px;
+}
+
+.contact-section {
+  background-color: #664d03; /* Marrón */
+  color: #fff; /* Blanco */
+  padding: 100px 0;
+  text-align: center;
+}
+
+.contact-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-content h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.contact-content p {
+  font-size: 18px;
+}
+
+.contact-content a {
+  display: block;
+  font-size: 20px;
+  margin-top: 20px;
+  color: #fff; /* Blanco */
+  text-decoration: none;
+}
+
+.contact-content a:hover {
+  text-decoration: underline;
 }
