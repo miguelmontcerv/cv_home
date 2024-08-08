@@ -41,7 +41,7 @@ function App() {
           </p>
           <h3>
           La tecnología es simplemente el medio. La gente es el fin.
-          -Peter Drucker.
+          - Peter Drucker.
 
           </h3>
         </div>
